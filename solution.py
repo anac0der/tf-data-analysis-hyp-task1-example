@@ -11,5 +11,5 @@ def solution(x_success: int,
     # Измените код этой функции
     # Это будет вашим решением
     # Не меняйте название функции и её аргументы
-    return proportions_ztest([x_success, y_success], [x_cnt, y_cnt], alternative='larger')[1] > 0.1
+    return proportions_ztest([x_success, y_success], [x_cnt, y_cnt], alternative='larger')[1] <= 0.1
     
